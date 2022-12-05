@@ -19,11 +19,11 @@
                         <h1>Sign In</h1>
                         <div class="info">
                             <div id="wrngpass"> Wrong Password! Password must contain characters, numeric digits, underscore and first character must be a letter. </div>
-                            <input class="email" type="email" placeholder="Email or phone number"> <br>
+                            <input class="email" type="email" placeholder="Email or phone number" name="username"> <br>
                             <input class="email" type="password" placeholder="Password" name="text1">
                         </div>
                         <div class="btn">
-                            <button class="btn-primary" type="submit" onclick="CheckPassword(document.form1.text1)">Sign In</button>
+                            <button class="btn-primary" type="submit" onclick="CheckPassword(document.form1.text1,document.form1.username)">Sign In</button>
                         </div>
                         <div class="help">
                             <div>
